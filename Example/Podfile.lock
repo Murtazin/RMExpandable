@@ -1,0 +1,16 @@
+PODS:
+  - RMExpandable (0.1.0)
+
+DEPENDENCIES:
+  - RMExpandable (from `../`)
+
+EXTERNAL SOURCES:
+  RMExpandable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RMExpandable: 68f90f3b45eacbeb6ba59eaca3fd56e7c3b60fcd
+
+PODFILE CHECKSUM: c399ede4f2459c01c810d1b1b55acb16a1667ed7
+
+COCOAPODS: 1.10.1
