@@ -4,7 +4,7 @@
 
 RMExpandable is a lightweight, flexible, and easy-to-use package that allows you to expand and collapse cells in a table. You can customize the cell as you wish.
 
-![demo](Example.gif)
+![demo](Xmpl.gif)
 
 ## Contents
 
