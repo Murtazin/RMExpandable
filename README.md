@@ -6,7 +6,6 @@ RMExpandable is a lightweight, flexible, and easy-to-use package that allows you
 
 ![demo](Example.gif)
 
-
 ## Contents
 
 - [Requirements](#requirements)
