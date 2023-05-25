@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'RMExpandable'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RMExpandable.'
+  s.summary          = 'RMExpandable is a lightweight, flexible, and easy-to-use package that allows you to expand and collapse cells in a table.
+                        You can customize the cell as you wish.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,8 +30,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'RMExpandable/Sources/**/*'
-  
-  s.resource_bundles = { 'RMExpandable' => ['RMExpandable/Assets/*.png'] }
+  s.source_files = 'Sources/RMExpandable/**/*'
   s.frameworks = 'UIKit'
 end
