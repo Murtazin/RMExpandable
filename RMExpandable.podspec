@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RMExpandable'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'RMExpandable is a lightweight, flexible, and easy-to-use package that allows you to expand and collapse cells in a table.
                         You can customize the cell as you wish.'
   s.description      = <<-DESC
