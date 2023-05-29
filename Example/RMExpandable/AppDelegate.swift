@@ -2,11 +2,9 @@
 //  AppDelegate.swift
 //  RMExpandable
 //
-//  Created by Murtazin on 05/17/2023.
+//  Created by Murtazin on 05/29/2023.
 //  Copyright (c) 2023 Murtazin. All rights reserved.
 //
-
-#if os(iOS)
 
 import UIKit
 
@@ -46,5 +44,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-
-#endif
