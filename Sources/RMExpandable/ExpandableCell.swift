@@ -57,9 +57,7 @@ open class ExpandableCell: UITableViewCell {
   
   func initView() {
     
-    let bundle = Bundle(identifier: "RMExpandableResources")
-    let image = UIImage(named: "expandableCell_arrow", in: bundle, compatibleWith: nil)
-    arrowImageView.image = image
+    arrowImageView.image = UIImage(named: "expandableCell_arrow", in: Bundle(for: ExpandableCell.self), compatibleWith: nil)
     self.contentView.addSubview(arrowImageView)
   }
   

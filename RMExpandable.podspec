@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RMExpandable'
-  s.version          = '1.0.1'
+  s.version          = '1.1.0'
   s.summary          = 'Package to expand and collapse cells.'
   s.description      = 'RMExpandable is a lightweight, flexible, and easy-to-use package that allows you to expand and collapse cells in a table.
                         You can customize the cell as you wish.'
@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'Sources/RMExpandable/**/*'
+  s.source_files = 'Sources/RMExpandable/*.swift'
+  s.resource_bundles        = { 'ExpandableCell' => [ 'Sources/RMExpandable/*.xcassets' ] }
 end
