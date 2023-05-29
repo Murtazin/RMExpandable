@@ -1,0 +1,6 @@
+framework module RMExpandable {
+  umbrella header "RMExpandable-umbrella.h"
+
+  export *
+  module * { export * }
+}
